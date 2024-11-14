@@ -20,7 +20,7 @@ jobs:
       - name: set up terraform 
         uses: harshicorp/setup-terraform@v2  
       - name: terraform init 
-        id: Terraform Init 
+        id: init 
         run: terraform init 
         working-directory: ./Terraform-VPC  
       - name: terraform validate
