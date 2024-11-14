@@ -1,5 +1,5 @@
 name: Terrform pipeline 
-run-name: ${{github.actor}}
+run-name: ${{ github.actor }}
 
 on:
  push:
